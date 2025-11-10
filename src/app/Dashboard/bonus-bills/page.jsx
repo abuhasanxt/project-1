@@ -189,9 +189,9 @@ export default function BonusBillsPage() {
         {step === 3 && (
           <div className="bg-gray-50 p-4 rounded-lg border mb-6">
             <h2 className="text-md font-semibold text-gray-800 mb-6 ">
-              <h1 className="text-md font-semibold t my-6 text-gray-700 border border-white bg-white p-2">
+              <p className="text-md font-semibold t my-6 text-gray-700 border border-white bg-white p-2">
                 Request for Billing Bonus for Professional Services (%)
-              </h1>
+              </p>
             </h2>
             <div>
               <div className="ml-5">
