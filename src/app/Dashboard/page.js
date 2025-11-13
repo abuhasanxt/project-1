@@ -14,15 +14,51 @@ import {
 
 export default function DashboardPage() {
   const requests = [
-    { title: "Request to deposit bonus bills", icon: <FileText size={30} />, path: "/Dashboard/bonus-bills" },
-    { title: "Leave Requests", icon: <Clock size={30} />, path: "/Dashboard/leave-requests" },
-    { title: "Request extra working hours", icon: <Briefcase size={30} />, path: "/Dashboard/extra-working-hours" },
-    { title: "Request to change a rest day", icon: <Calendar size={30} />, path: "/Dashboard/change-rest-day" },
-    { title: "Missing Punch Request", icon: <Fingerprint size={30} />, path: "/Dashboard/missing-punch" },
-    { title: "Change Work Shift Request", icon: <Users size={30} />, path: "/Dashboard/change-shift-request" },
-    { title: "Request Out of Office", icon: <Clock size={30} />, path: "/Dashboard/out-of-office" },
-    { title: "Resignation Request", icon: <LogOut size={30} />, path: "/Dashboard/resignation" },
-    { title: "Request Grievance", icon: <MessageSquare size={30} />, path: "/Dashboard/grievance" },
+    {
+      title: "Request to deposit bonus bills",
+      icon: <FileText size={30} />,
+      path: "/Dashboard/request/bonus-bills",
+    },
+    {
+      title: "Leave Requests",
+      icon: <Clock size={30} />,
+      path: "/Dashboard/request/leave-requests",
+    },
+    {
+      title: "Request extra working hours",
+      icon: <Briefcase size={30} />,
+      path: "/Dashboard/request/extra-working-hours",
+    },
+    {
+      title: "Request to change a rest day",
+      icon: <Calendar size={30} />,
+      path: "/Dashboard/request/change-rest-day",
+    },
+    {
+      title: "Missing Punch Request",
+      icon: <Fingerprint size={30} />,
+      path: "/Dashboard/request/missing-punch",
+    },
+    {
+      title: "Change Work Shift Request",
+      icon: <Users size={30} />,
+      path: "/Dashboard/request/change-shift-request",
+    },
+    {
+      title: "Request Out of Office",
+      icon: <Clock size={30} />,
+      path: "/Dashboard/request/out-of-office",
+    },
+    {
+      title: "Resignation Request",
+      icon: <LogOut size={30} />,
+      path: "/Dashboard/request/resignation",
+    },
+    {
+      title: "Request Grievance",
+      icon: <MessageSquare size={30} />,
+      path: "/Dashboard/request/grievance",
+    },
   ];
 
   return (
