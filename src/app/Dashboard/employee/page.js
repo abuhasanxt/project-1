@@ -8,7 +8,7 @@ export default function EmployeePage() {
 
   const menuItems = [
     { name: "Attendance", path: "/Dashboard/employee/attendance" },
-    { name: "Requests", path: "/Dashboard/employee/requests" },
+    { name: "Requests", path: "/Dashboard/employee/request" },
     { name: "Leaves", path: "/Dashboard/employee/leaves" },
     { name: "Memos", path: "/Dashboard/employee/balances" },
   ];
