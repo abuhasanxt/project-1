@@ -15,6 +15,8 @@ export default function EmployeePage() {
     { name: "Decisions", path: "/Dashboard/employee/decisions" },
     { name: "Violation of Company Rules", path: "/Dashboard/employee/rules" },
     { name: "Evaluation Forms", path: "/Dashboard/employee/evaluation" },
+    { name: "Memos", path: "/Dashboard/employee/memos" },
+    { name: "Loans / Receivables", path: "/Dashboard/employee/receivables" },
   ];
 
   return (
