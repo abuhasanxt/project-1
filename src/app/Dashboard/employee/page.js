@@ -17,6 +17,10 @@ export default function EmployeePage() {
     { name: "Evaluation Forms", path: "/Dashboard/employee/evaluation" },
     { name: "Memos", path: "/Dashboard/employee/memos" },
     { name: "Loans / Receivables", path: "/Dashboard/employee/receivables" },
+    { name: "Survey Responses", path: "/Dashboard/employee/surveyResponses" },
+    { name: "Working Activity", path: "/Dashboard/employee/workingActivity" },
+    { name: "Letters", path: "/Dashboard/employee/letters" },
+    { name: "My Custody", path: "/Dashboard/employee/myCustody" },
   ];
 
   return (
