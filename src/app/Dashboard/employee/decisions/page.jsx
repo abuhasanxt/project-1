@@ -47,8 +47,8 @@ export default function RequestsPage() {
       <header className="border-b border-gray-200 bg-white px-8 py-6">
         <div className="flex items-center justify-between">
           <div>
-            <h1 className="text-2xl font-bold text-gray-900">Requests</h1>
-            <p className="text-sm text-gray-500 mt-1">All employee requests</p>
+            <h1 className="text-2xl font-bold text-gray-900">Decisions</h1>
+            <p className="text-sm text-gray-500 mt-1"> All decisions related to you</p>
           </div>
 
           <button
@@ -70,12 +70,12 @@ export default function RequestsPage() {
               <div className="font-semibold text-gray-900 text-sm">
                 Employee
               </div>
-              <div className="font-semibold text-gray-900 text-sm">RN</div>
               <div className="font-semibold text-gray-900 text-sm">
-                Request Date
+                Decision No.
               </div>
+              <div className="font-semibold text-gray-900 text-sm"> Date</div>
               <div className="font-semibold text-gray-900 text-sm">
-                Request Type
+                Decision Type
               </div>
               <div className="font-semibold text-gray-900 text-sm">Status</div>
               <div className="font-semibold text-gray-900 text-sm">Stage</div>
@@ -151,9 +151,7 @@ export default function RequestsPage() {
           <div className="fixed top-0 right-0 h-full w-96 bg-white shadow-xl z-50 transform transition-transform duration-300 ease-in-out">
             {/* Header Buttons */}
             <div className="flex items-center justify-between p-4 border-b">
-              <h2 className="text-lg font-semibold text-gray-800">
-                Filter Requests
-              </h2>
+             <h2></h2>
               <button
                 onClick={() => setShowSidebar(false)}
                 className="text-gray-500 hover:text-gray-800 text-2xl font-bold"
@@ -174,7 +172,7 @@ export default function RequestsPage() {
                 onClick={() => setShowSidebar(false)}
                 className="bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-lg font-medium"
               >
-                Apply Filter
+                Apply Search
               </button>
             </div>
 
@@ -183,7 +181,7 @@ export default function RequestsPage() {
               {/* Request Number */}
               <div>
                 <label className="block text-sm font-medium text-gray-700 mb-1">
-                  Request Number
+                  Decision No.
                 </label>
                 <input
                   type="text"
@@ -199,11 +197,11 @@ export default function RequestsPage() {
               {/* Request Type */}
               <div>
                 <label className="block text-sm font-medium text-gray-700 mb-1">
-                  Request Type
+                 Employee Name / ID
                 </label>
                 <input
-                  type="text"
-                  placeholder="Enter request type"
+                  type="number"
+                  placeholder="Choose Employee Name /ID"
                   value={filters.type}
                   onChange={(e) =>
                     setFilters({ ...filters, type: e.target.value })
@@ -215,7 +213,7 @@ export default function RequestsPage() {
               {/* Status */}
               <div>
                 <label className="block text-sm font-medium text-gray-700 mb-1">
-                  Status
+                 Decision Type
                 </label>
                 <select
                   value={filters.status}
