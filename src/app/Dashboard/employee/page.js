@@ -21,6 +21,7 @@ export default function EmployeePage() {
     { name: "Working Activity", path: "/Dashboard/employee/workingActivity" },
     { name: "Letters", path: "/Dashboard/employee/letters" },
     { name: "My Custody", path: "/Dashboard/employee/myCustody" },
+    { name: "Payslips", path: "/Dashboard/employee/payslips" },
   ];
 
   return (
