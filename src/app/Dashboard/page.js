@@ -24,6 +24,12 @@ export default function DashboardHome() {
         >
           👨‍💼 Employee
         </Link>
+        <Link
+          href="/Dashboard/human-resource"
+          className="block text-center px-5 py-3 bg-green-600 text-white rounded-lg hover:bg-green-700 transition"
+        >
+          👨‍💼 Human Resource
+        </Link>
        
       </div>
     </div>
